@@ -9,9 +9,9 @@
 pom.xml  
   
 <dependency>  
-			<groupId>org.springframework.cloud</groupId>  
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>  
-		</dependency>  
+ <groupId>org.springframework.cloud</groupId>  
+ <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>  
+</dependency>  
 ``` 
    
 - ***Step 2***: Goto main application class and ***@EnableEurekaServer***  
@@ -38,9 +38,9 @@ it will display eureka page
 ```  
 add eureka client dependencies  
 <dependency>  
-			<groupId>org.springframework.cloud</groupId>  
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>  
-		</dependency>  
+ <groupId>org.springframework.cloud</groupId>  
+ <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>  
+</dependency>  
 ```		
   
 step 6: go to 
@@ -49,5 +49,5 @@ application.properties
   
 eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka		
 ```		
-		
+Step 7: Goto http://localhost:8761/		
 		
